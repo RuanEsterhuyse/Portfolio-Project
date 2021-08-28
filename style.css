@@ -682,7 +682,10 @@ section#testimonials {
 /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Contact Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
 section#contact {
   height: 100vh;
-  background-image: url("img/");
+  background-image: url("img/Profile_pic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
   display: flex;
   justify-content: flex-end;
