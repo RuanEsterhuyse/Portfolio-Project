@@ -114,9 +114,6 @@ nav#header__main-nav {
 }
 
 ul.header__main-nav--links {
-  /* just for demonstration purposes */
-  /* background-color: aqua; */
-
   width: 100%;
   height: 100%;
 
@@ -154,7 +151,6 @@ ul.header__main-nav--links li a:visited::after {
 ul.header__main-nav--links li a:link::before,
 ul.header__main-nav--links li a:visited::before {
   top: 0;
-  /* Transform origin is center by default */
   transform-origin: left;
 }
 
@@ -171,7 +167,7 @@ ul.header__main-nav--links li a:active::after {
   transform: scaleX(1);
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Showcase / Hero Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*Showcase / Hero Section*/
 section#showcase {
   height: 100vh;
   background-image: url("img/Profile_pic.jpg");
@@ -254,7 +250,7 @@ div.showcase__content {
   transform-origin: left;
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Work Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*Work Section*/
 section#work {
   display: flex;
   flex-wrap: wrap;
@@ -294,7 +290,7 @@ div.work__card img:active {
   filter: sepia(80%);
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* About Me Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*About Me Section*/
 section#about-me {
   display: flex;
   justify-content: space-around;
@@ -381,7 +377,7 @@ section#about-me {
   transform-origin: top;
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Services Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*Services Section*/
 section#services {
   display: flex;
   justify-content: center;
@@ -445,7 +441,7 @@ section#services {
   color: white;
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Services Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*Services Section*/
 section#skills {
   display: flex;
   justify-content: center;
@@ -609,7 +605,7 @@ section#skills {
   }
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Testimonials Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*Testimonials Section*/
 section#testimonials {
   padding: calc(1rem + 2vw);
   background-color: var(--secondary-color);
@@ -679,10 +675,10 @@ section#testimonials {
   filter: grayscale(50%);
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Contact Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*Contact Section*/
 section#contact {
   height: 100vh;
-  background-image: url("img/Profile_pic.jpg");
+  background-image: url("img/Profilepic_2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -721,7 +717,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* (max-width:1510px) Mark *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*(max-width:1510px)*/
 @media screen and (min-width: 1510px) {
   body {
     width: 1510px;
@@ -729,18 +725,18 @@ input[type="submit"] {
   }
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* (max-width:900px) Mark *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*(max-width:900px)*/
 @media screen and (max-width: 900px) {
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Showcase / Hero Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+  /*Showcase / Hero Section*/
   section#showcase {
     background-position: 100%;
     align-items: flex-end;
   }
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* (max-width:610px) Mark *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*(max-width:610px)*/
 @media screen and (max-width: 610px) {
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Main Nav Header *-*-*-*-**-*-*-*-**-*-*-*-**-*/
+  /*Main Nav Header*/
   header#header {
     position: absolute;
   }
@@ -838,14 +834,14 @@ input[type="submit"] {
     opacity: 1;
   }
 
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Showcase / Hero Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+  /*Showcase / Hero Section*/
   section#showcase {
     background-position: 80%;
   }
 
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Services Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Skills Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Testimonials Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+  /*Services Section*/
+  /*Skills Section*/
+  /*Testimonials Section*/
   section#services {
     padding: 6rem 3rem 2rem;
   }
@@ -870,10 +866,10 @@ input[type="submit"] {
   }
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* (max-width:460px) Mark *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*(max-width:460px)*/
 
 @media screen and (max-width: 460px) {
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Testimonials Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+  /*Testimonials Section*/
   .testimonials__card--content {
     top: 0;
     height: 100%;
@@ -891,7 +887,7 @@ input[type="submit"] {
     transform-origin: top;
   }
 
-  /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Contact Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+  /*Contact Section*/
   section#contact {
     background-position: 15% 5%;
   }
