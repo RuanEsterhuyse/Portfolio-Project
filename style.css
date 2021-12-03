@@ -213,6 +213,7 @@ div.showcase__content {
   font-family: "roboto", cursive;
   font-size: calc(1.5rem + 1vw);
   color: white;
+  margin-bottom: 30px;
 }
 
 .showcase__content--link:link,
@@ -226,7 +227,7 @@ div.showcase__content {
   letter-spacing: 0.2rem;
   position: relative;
   z-index: 1;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .showcase__content--link:link::after,
