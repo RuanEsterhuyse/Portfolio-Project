@@ -10,3 +10,4 @@ This project is from an Udemy course by Muslim Helalee. I finished the project a
 
 - HTML
 - CSS
+- JavaScript
